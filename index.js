@@ -1,5 +1,5 @@
 function add(a, b) {
-    return a + 2;
+    return a + b;
   }
   
   module.exports = add;
