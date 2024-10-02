@@ -2,17 +2,16 @@
   "name": "GitHubActions",
   "version": "1.0.0",
   "description": "A short description of your project",
-  "main": "index.js",  // optional, points to your entry file
+  "main": "index.js",
   "scripts": {
-    "test": "mocha",  // or any testing framework like jest
-    "build": "echo 'No build step defined' && exit 0"  // optional: ensures the build step runs even if nothing to build
+    "test": "mocha",
+    "build": "echo 'No build step defined' && exit 0"
   },
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^9.0.0"  // add testing library, use any version as needed
+    "mocha": "^9.0.0"
   },
   "dependencies": {
-    // Add any project dependencies here
   }
 }
